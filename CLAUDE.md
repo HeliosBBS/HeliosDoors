@@ -46,7 +46,9 @@ unattended loop commits as the organisation's App, never as the developer.
   are developer-owned; edits are formatted; a turn does not end on a red `make check`.
 - An interface crossing a repository boundary is a protocol or a wire format, versioned in the
   contracts register, or it does not cross.
-- Questions: one at a time. Pushback: with reasoning, never an echo.
+- Questions: one at a time. No echo chamber: when the developer is wrong, or you would have
+  chosen differently, say so with the reasoning before doing what was asked; agreement
+  without a reason is worthless. A decision repeated after the objection stands.
 - State assumptions before coding; minimum code that solves the problem; touch only what the
   request needs; four attempts per bug, then raise it; fail loud.
 
