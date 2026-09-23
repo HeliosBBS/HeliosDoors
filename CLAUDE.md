@@ -26,7 +26,8 @@ repository's wiki, unreviewed and disposable by design.
 
 ## The stack
 
-Not chosen yet. The first feature's design names it once, in `docs/spec/architecture.md`,
+Not chosen yet. The first feature's design records it in `docs/stack.md`, outside the spec
+corpus, which never names a language, file or query language,
 and adds the `Makefile` whose `check` target becomes the required check on `development`.
 Until then there is nothing to build and CI runs nothing.
 
