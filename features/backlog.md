@@ -55,6 +55,11 @@ built until it has been through `feature-brainstorm` and has a brief of its own.
   Each door has a maximum number of concurrent players, and a single-instance game gets node
   and slot assignment. Exit codes and abnormal endings are logged and reported to the
   operator, and a door can be disabled after N failures. Depends on: game sessions and status.
+- **Inter-BBS league games**, for later: games that play between boards (BRE, Usurper and the
+  like) hand their outbound packets from the instance to the board, and take incoming ones back,
+  as opaque files; the board carries them over FTN to and from the league's hub without
+  understanding them. The hand-off is a contract with HeliosAdvance. Depends on: game sessions
+  and status.
 - **Interactive fiction door**, for later: a Z-Machine door that ships with the service, built
   with the Door Kit, playing only freely licensed stories (from the IF Archive and the yearly
   competitions); the Infocom titles are not bundled, and a sysop can add their own story
